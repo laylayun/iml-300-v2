@@ -1,3 +1,29 @@
 body {
-  background-color: red;
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+}
+
+.bg1 {
+  background-image: url(asset/1.jpeg);
+}
+
+.bg2 {
+  background-image: url(asset/2.jpeg);
+}
+
+.bg3 {
+  background-image: url(asset/3.jpeg);
+}
+
+.bg4a {
+  background-image: url(asset/4a.jpeg);
+}
+
+.bg4b {
+  background-image: url(asset/4b.jpeg);
+}
+
+.bg5 {
+  background-image: url(asset/5.png);
 }

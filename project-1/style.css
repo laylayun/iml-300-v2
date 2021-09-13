@@ -87,6 +87,13 @@ a:hover {
 
 .bg4b {
   background-image: url(asset/4b.jpeg);
+  text-align: left;
+}
+
+.text4b {
+  padding-top: 160px;
+  background-color: rgba(0, 0, 0, 0.3);
+  width: fit-content;
 }
 
 .bg4b a {
@@ -138,9 +145,13 @@ a:hover {
 }
 
 .bg6 a {
-  font-size: 270pt;
-  padding-top: 600px;
-  text-align: right;
+  display: flex;
+  align-items: right;
+  justify-content: right;
+  font-size: 115pt;
+  padding-top: 230px;
+  padding-right: 80px;
+  text-align: center;
   color: rgba(240, 248, 255, 0);
   background-color: transparent;
 }
@@ -190,6 +201,11 @@ a:hover {
   opacity: 1;
   color: white;
   background-color: rgb(255, 188, 14);
+}
+
+.button8 {
+  text-align: right;
+  font-size: small;
 }
 
 .bg9 {
@@ -342,4 +358,47 @@ a:hover {
   background-color: black;
   text-align: right;
   font-size: medium;
+}
+
+.bg14 {
+  background-image: url(asset/14.jpg);
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.text14 {
+  background-color: rgba(255, 255, 255, 0.3);
+  width: 700px;
+  text-align: justify;
+  padding: 30px;
+  height: 100vh;
+}
+
+.bg14 h1 {
+  font-size: 50pt;
+}
+
+.bg14 h2 {
+  font-size: 30pt;
+}
+
+.bg14 a {
+  color: black;
+}
+
+.bg15 {
+  background-image: url(asset/15.jpg);
+  font-size: 50pt;
+  display: flex;
+  align-items: right;
+  justify-content: right;
+  padding-right: 80px;
+  text-align: right;
+}
+
+.bg15 a {
+  color: white;
+  font-style: italic;
+  font-size: 100pt;
+  text-decoration: none;
 }

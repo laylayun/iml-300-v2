@@ -41,7 +41,7 @@ a:hover {
 }
 
 .bg1 img:hover {
-  box-shadow: 0 0 100px gold;
+  box-shadow: 0 0 100px rgb(255, 188, 14);
 }
 
 .bg2 {

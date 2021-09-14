@@ -375,7 +375,7 @@ a:hover {
 
 .bg15 {
   background-image: url(asset/15.jpg);
-  font-size: 50pt;
+  font-size: 40pt;
   display: flex;
   align-items: right;
   justify-content: right;
@@ -386,6 +386,6 @@ a:hover {
 .bg15 a {
   color: white;
   font-style: italic;
-  font-size: 100pt;
+  font-size: 80pt;
   text-decoration: none;
 }

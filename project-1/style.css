@@ -355,28 +355,22 @@ a:hover {
 
 .bg14 {
   background-image: url(asset/14.jpg);
-  color: black;
-  font-family: "Times New Roman", Times, serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.text14 {
-  background-color: rgba(255, 255, 255, 0.3);
+.bg14 img {
   width: 700px;
-  text-align: justify;
-  padding: 30px;
-  height: 100vh;
+  height: auto;
+  filter: blur(20px);
+  transition-property: -webkit-filter;
+  transition-duration: 0.4s;
 }
 
-.bg14 h1 {
-  font-size: 50pt;
-}
-
-.bg14 h2 {
-  font-size: 30pt;
-}
-
-.bg14 a {
-  color: black;
+.bg14 img:hover,
+.bg14 img:focus {
+  filter: blur(0px);
 }
 
 .bg15 {

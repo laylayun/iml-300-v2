@@ -101,13 +101,14 @@ a:hover {
 
 .bg4b {
   background-image: url(asset/4b.jpeg);
+  width: fit-content;
   text-align: left;
+  color: black;
 }
 
 .text4b {
-  padding-top: 160px;
-  background-color: rgba(0, 0, 0, 0.3);
-  width: fit-content;
+  padding-left: 20px;
+  padding-top: 20px;
 }
 
 .bg4b a {

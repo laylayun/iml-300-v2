@@ -1,0 +1,21 @@
+body {
+  text-align: center;
+  font-family: "Cabin", sans-serif;
+  list-style-position: inside;
+  color: white;
+  background-image: url(1.png);
+}
+
+body a {
+  color: rgb(193, 193, 193);
+}
+
+body a:hover {
+  background-color: rgba(0, 0, 0, 0.801);
+  color: white;
+  text-decoration: none;
+}
+body h1 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 80;
+}

@@ -1,5 +1,7 @@
 # I'm lovin' it
 
+![demo](asset/summary.gif)
+
 [I'm lovin' it](http://laylayun.github.io/iml300/project-1/index) is an interactive web experience blabla (One sentence summary).
 
 ### Description

@@ -1,27 +1,7 @@
 body {
+  font-family: "Comfortaa", cursive;
+  background-color: #ebe2d0;
   text-align: center;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  color: white;
-  background-image: url(1.png);
-  right: 15%;
-  top: 50px;
-  width: 80vw;
-}
-
-body a {
-  color: rgb(24, 24, 24);
-}
-
-body a:hover {
-  background-color: rgba(0, 0, 0, 0.801);
-  color: white;
-  text-decoration: none;
-}
-
-h1 {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-style: bold;
-  font-size: 80;
 }
 
 iframe {
@@ -31,5 +11,47 @@ iframe {
 
 .grid-container {
   display: grid;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: auto auto auto;
+}
+
+h1 {
+  font-size: 25px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+.main {
+  margin-bottom: 50px;
+  margin-top: 25px;
+}
+
+.presentation {
+  margin-bottom: 50px;
+}
+
+.exercises {
+  margin-bottom: 50px;
+}
+
+.projects {
+  margin-bottom: 50px;
+}
+
+.readingresponses {
+  margin-bottom: 50px;
+}
+
+a {
+  color: #416c4c;
+  font-style: italic;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+a:hover {
+  background-color: rgb(89, 147, 104);
+  color: white;
+  text-decoration: none;
 }
